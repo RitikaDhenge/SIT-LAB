@@ -1,0 +1,16 @@
+% Ritika Dhenge
+% 16070123081
+% 08/01/2019
+% Graph plot
+clc;  
+clear all;   
+close all;
+t=0:0.001:2;   
+x=sin(2*pi*t);
+plot(t,x,'-- b')
+hold on
+y=cos(2*pi*t)
+plot(t,y,'-- g')
+xlabel('time','fontsize', 20)
+ylabel('amplitude','fontsize',20)
+title('sine and cos wave','fontsize',20)
